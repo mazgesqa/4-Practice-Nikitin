@@ -1,0 +1,211 @@
+
+@font-face {
+    font-family: "EB Garamond";
+    src: url("fonts/ebgaramondregular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Inter";
+}
+
+.main-container {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: auto;
+    width: 360px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    height: 132px;
+}
+
+.logo-image {
+    width: 70px;
+    height: 15px;
+    margin: 24px 0 0 20px;
+}
+
+.navigation-menu {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    row-gap: 13px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu-link {
+    color: rgb(255, 255, 255);
+    font-family: "inter", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.hero-section {
+    background-image: url(./images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 7px 0 30px 20px;
+}
+
+.hero-title {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: "ebground", Arial, sans-serif;
+    font-size: 72px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+.highlight-text1,
+.highlight-text2,
+.highlight-text3 {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+    padding: 60px;
+}
+
+.text-right {
+    text-align: right;
+    padding: 130px;
+}
+
+.overview {
+    margin: 0 20px 30px 20px;
+}
+
+.overview-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview-title {
+    margin: 0;
+    color: #cccccc;
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 400;
+    width: 200px;
+    margin-bottom: 24px;
+}
+
+.overview-text {
+    color: #cccccc;
+}
+
+.overview-date {
+    margin: 0;
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.yellow-background {
+    background-color: #FEE42A;
+}
+
+.causes-title {
+    color: #000000;
+    font-family: "EB Garamond";
+}
+
+.yellow-description,
+.yellow-item {
+    color: #000000;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+
+.content-card {
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+
+.dark-theme {
+    background-color: #343434;
+}
+
+.bright-theme {
+    background-color: #FEE42A;
+}
+
+.black-text {
+    color: #000000;
+}
+
+.author-photo {
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 100px;
+}
+
+.action-title {
+    font-size: 30px;
+    font-family: "EB Garamond";
+}
+
+.action-text {
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+
+.content-title,
+.content-title2 {
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 3px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+
+.content-text {
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+
+.divider-line {
+    height: 1px;
+    background-color: #FEE42A;
+    border: none;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
